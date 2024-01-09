@@ -1,0 +1,14 @@
+{
+    "name": "alfi-syahri/cli-app",
+    "description": "Simple CLI Application for User, Doctor, and Checkup Scheduling",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    }
+}
