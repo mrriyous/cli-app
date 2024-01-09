@@ -32,7 +32,7 @@ This is a simple command-line application for managing users, doctors, and check
 4. Open cli-app.php change database details:
 
     ```php
-    $this->pdoWrapper = ...
+    $this->pdoWrapper = new PDOWrapper('localhost', 'database', 'root', 'password');
     ```
 
 5. Open migration.php change database details and run the migration:
